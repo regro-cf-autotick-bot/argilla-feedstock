@@ -1,5 +1,5 @@
 {% set name = "argilla" %}
-{% set version = "1.24.0" %}
+{% set version = "1.25.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/argilla-{{ version }}.tar.gz
-  sha256: 76a45f9e576d1b503538a21383c860c693f50e010f1ee6fb4fddae978d3b5d2c
+  sha256: 76562e5c70603fa82a4df0ffa72068a243cc5d30a35d339bd8a8bb0c9ec2678e
 
 build:
   number: 0
@@ -55,7 +55,7 @@ about:
     Integrates human and model feedback loops for continuous LLM refinement and oversight.
 
     With Argilla's Python SDK and adaptable UI, you can create human and model-in-the-loop workflows for:
-    
+
     - Supervised fine-tuning
     - Preference tuning (RLHF, DPO, RLAIF, and more)
     - Small, specialized NLP models
@@ -65,7 +65,7 @@ about:
 
     ---
     :fire: The conda-forge recipe was generated with [Conda-Forger App](https://sugatoray-conda-forger.streamlit.app/).
-  
+
   dev_url: https://github.com/argilla-io/argilla
   doc_url: https://docs.argilla.io/
 
